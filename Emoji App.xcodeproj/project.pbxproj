@@ -14,6 +14,7 @@
 		058064501F94F66500D05F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0580644E1F94F66500D05F95 /* LaunchScreen.storyboard */; };
 		0580645B1F94F66500D05F95 /* Emoji_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0580645A1F94F66500D05F95 /* Emoji_AppTests.swift */; };
 		058064661F94F66500D05F95 /* Emoji_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058064651F94F66500D05F95 /* Emoji_AppUITests.swift */; };
+		058064741F954A0A00D05F95 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058064731F954A0A00D05F95 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		058064611F94F66500D05F95 /* Emoji AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		058064651F94F66500D05F95 /* Emoji_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_AppUITests.swift; sourceTree = "<group>"; };
 		058064671F94F66500D05F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058064731F954A0A00D05F95 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				058064451F94F66500D05F95 /* AppDelegate.swift */,
 				058064471F94F66500D05F95 /* ViewController.swift */,
+				058064731F954A0A00D05F95 /* DefinitionViewController.swift */,
 				058064491F94F66500D05F95 /* Main.storyboard */,
 				0580644C1F94F66500D05F95 /* Assets.xcassets */,
 				0580644E1F94F66500D05F95 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				058064481F94F66500D05F95 /* ViewController.swift in Sources */,
+				058064741F954A0A00D05F95 /* DefinitionViewController.swift in Sources */,
 				058064461F94F66500D05F95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

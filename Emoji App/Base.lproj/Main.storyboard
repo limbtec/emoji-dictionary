@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Emoji_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="Emoji_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="1008.8" y="32.833583208395808"/>
         </scene>
-        <!--View Controller-->
+        <!--Definition View Controller-->
         <scene sceneID="shI-i8-1uz">
             <objects>
-                <viewController id="1EZ-Eb-PSC" sceneMemberID="viewController">
+                <viewController id="1EZ-Eb-PSC" customClass="DefinitionViewController" customModule="Emoji_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Vd-yo-Peq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,6 +72,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IIV-TL-PMl"/>
                     </view>
+                    <connections>
+                        <outlet property="definitionLabel" destination="hcA-iX-Xrw" id="ztH-Ab-DcM"/>
+                        <outlet property="emojiLabel" destination="WzQ-ea-gXa" id="Ick-IB-avW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eyt-X8-MTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
